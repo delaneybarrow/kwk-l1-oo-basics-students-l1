@@ -39,7 +39,7 @@ sams_shoe.swoosh = "white"
 puts sams_shoe.color
 puts sams_shoe.swoosh
 nats_shoe = Shoes.new 
-nats_shoe.color = "Blue"
+nats_shoe.color = "blue"
 nats_shoe.swoosh = "white"
 nats_shoe.base = "white"
 nats_shoe.laces = "white"
