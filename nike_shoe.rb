@@ -12,4 +12,6 @@ end
 
 sams_shoe = Shoes.new 
 sams_shoe.color = "red"
-puts sams_shoe.color
+puts sam_shoe.color
+nat_shoes = Shoes.new 
+nat_shoes.color = "Blue"
