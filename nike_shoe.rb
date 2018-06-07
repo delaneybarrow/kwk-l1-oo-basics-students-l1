@@ -16,6 +16,23 @@ class Shoes
     @this_shoes_swoosh
   end
   
+  def laces=(laces_color)
+    @this_shoes_laces = laces_color
+  end
+  
+  def laces 
+    @this_shoes_laces
+  end
+  
+  def base=(base_color)
+    @this_shoes_base
+  end
+  
+  def base
+    @this_shoes_base
+  end
+  
+  
 end 
 
 sams_shoe = Shoes.new 
@@ -25,3 +42,4 @@ puts sams_shoe.color
 puts sams_shoe.swoosh
 nat_shoes = Shoes.new 
 nat_shoes.color = "Blue"
+puts "Nat's shoes are #{nats_shoe.color}"
