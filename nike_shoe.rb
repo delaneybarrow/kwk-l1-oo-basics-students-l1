@@ -25,7 +25,7 @@ class Shoes
   end
   
   def base=(base_color)
-    @this_shoes_base
+    @this_shoes_base = base_color
   end
   
   def base
