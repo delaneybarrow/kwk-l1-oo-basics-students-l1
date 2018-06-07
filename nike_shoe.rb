@@ -31,8 +31,6 @@ class Shoes
   def base
     @this_shoes_base
   end
-  
-  
 end 
 
 sams_shoe = Shoes.new 
@@ -40,6 +38,9 @@ sams_shoe.color = "red"
 sams_shoe.swoosh = "white"
 puts sams_shoe.color
 puts sams_shoe.swoosh
-nat_shoes = Shoes.new 
-nat_shoes.color = "Blue"
-puts "Nat's shoes are #{nats_shoe.color}"
+nats_shoe = Shoes.new 
+nats_shoe.color = "Blue"
+nats_shoe.swoosh = "white"
+nats_shoe.base = "white"
+nats_shoe.laces = "white"
+puts "Nat's shoes are #{nats_shoe.color} with a #{nats_shoe.swoosh} swoosh, a #{nats_shoe.base} base, and #{nats_shoe.laces} laces"
